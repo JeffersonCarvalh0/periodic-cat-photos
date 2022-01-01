@@ -2,6 +2,8 @@
 
 This bot is intended to solve your problems when it comes to getting random cat pictures in your discord server.
 
+invite url: https://discord.com/api/oauth2/authorize?client_id=926491618075377674&permissions=60480&scope=bot
+
 ## Current commands list
 
  - `!pcats random` -> shows a random cat picture
