@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    command: "python3 main.py"
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      DISCORD_TOKEN: ${DISCORD_TOKEN}
+      CAT_API_TOKEN: ${CAT_API_TOKEN}

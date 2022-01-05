@@ -10,8 +10,14 @@ invite url: https://discord.com/api/oauth2/authorize?client_id=92649161807537767
  
 ## How to run locally
 
+### Manually
+
  - `pip install -r requirements.txt`
  - `python3 main.py`
+
+### Using docker compose
+
+ - `docker-compose up`
 
 It requires the following env vars to be configured:
 
@@ -19,6 +25,8 @@ It requires the following env vars to be configured:
 DISCORD_TOKEN=<app token>
 CAT_API_TOKEN=<api token from https://thecatapi.com>
 ```
+
+If you are running it through docker-compose, just create an .env file with those variables in the project's root dir and docker-compose will handle the rest.
 
 ## License
 MIT
